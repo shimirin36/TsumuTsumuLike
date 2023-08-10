@@ -185,6 +185,7 @@ public class GameManager : MonoBehaviour
         timerText.text = "0.0";
         gameOver = true;
         resultPanel.SetActive(true);
+        SoundManager.instance.StopBGM();
     }
 
     public void OnRetryButton()

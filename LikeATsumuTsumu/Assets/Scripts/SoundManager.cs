@@ -49,4 +49,9 @@ public class SoundManager : MonoBehaviour
     {
         audioSourceSE.PlayOneShot(seClips[(int)se]);
     }
+
+    public void StopBGM()
+    {
+        audioSourceBGM.Stop();
+    }
 }

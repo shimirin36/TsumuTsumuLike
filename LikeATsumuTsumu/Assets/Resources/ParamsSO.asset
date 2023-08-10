@@ -18,5 +18,5 @@ MonoBehaviour:
   - 1
   - 1.1
   - 1.3
-  ballDistance: 1.4
-  limitTime: 30
+  ballDistance: 1.2
+  limitTime: 60
